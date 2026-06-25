@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Image Gallery</h1>
+    </nav>
+    <section class="hero">
+        <h1>Image Gallery</h1>
+        <p>Click on any image to view</p>
+    </section>
+    <div class="gallery">
+        <img src="img/Beach_2K_202606242144.jpeg" alt="Beach" onclick="popups(this)">
+        <img src="img/Flowers_2K_202606242151.jpeg" alt="Flower" onclick="popups(this)">
+        <img src="img/Forest_2K_202606242147.jpeg" alt="Forest" onclick="popups(this)">
+        <img src="img/Mountains_2K_202606242141.jpeg" alt="Mountains" onclick="popups(this)">
+        <img src="img/Road_2K_202606242150.jpeg" alt="Road" onclick="popups(this)">
+        <img src="img/Snow_2K_202606242153.jpeg" alt="Snow" onclick="popups(this)">
+        <img src="img/Sunset_2K_202606242148.jpeg" alt="Sunset" onclick="popups(this)">
+        <img src="img/Waterfall_2K_202606242142.jpeg" alt="Waterfall" onclick="popups(this)">
+    </div>
+    <div class="popup">
+        <span id="close" onclick="closepopup()">&times;</span>
+        <img id="popup-img" src="">
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
